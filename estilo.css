@@ -1,0 +1,134 @@
+body{
+    margin: 0px;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    font-size: 81.25%;
+}
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content:flex-end;
+    height: 80px;
+    width: auto;
+    
+}
+
+.gmail{
+    width: 50px;
+    height: 50px;
+    
+    margin: 10px 20px;
+    font-family: arial,sans-serif;
+    font-size: 15px;
+    padding-top: 15px;
+}
+.imagens{
+    width: 50px;
+    height: 50px;
+    margin: 10px 20px;
+    font-family: arial,sans-serif;
+    font-size: 15px;
+    padding-top: 15px;
+}
+.bolinhas{
+    width: 30px;
+    height: 30px;
+    background-image: url("imagem/quadradinhos.png");
+    background-position:right;
+    background-size: cover;
+    margin: 20px 20px;
+
+}
+.fotinha{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-image: url("imagem/foto.png");
+    background-position: center;
+    background-size: cover;
+    margin: 10px 20px;
+
+}
+section{
+    
+    width: auto;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo_google{
+    background-image: url("imagem/logo.png");
+    background-position: center;
+    background-size: cover;
+    width:600px;
+    height: 200px;
+    margin-top: 60px;
+}
+.barra_pesquisa{
+    border: solid rgb(155, 146, 146 2px);
+    width: 600px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 30px;
+    display: flex;
+    box-shadow: 3px 1px 8px grey;
+}
+.lupinha{
+    background-image: url("imagem/lupinha.png");
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    flex: 0.5;
+}
+.input_texto{
+    
+    height: 50px;
+    flex: 5;
+    text-align: center;
+    text-decoration-style: none;
+    
+}
+input{
+    width: 430px;
+    height: 50px;
+    border-style: none;
+    outline: 0; 
+}
+input::placeholder{
+    font-size: 20px;
+    
+}
+.microfone{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    flex: 0.5;
+    background-image: url("imagem/microfone.png");
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
